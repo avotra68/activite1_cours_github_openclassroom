@@ -1,0 +1,8 @@
+/*mettre bordure à toutes les cellules*/
+td, th{border: 2px solid black;}
+/*pcoller les bordures du tableau*/
+table{border-collapse: collapse;}
+tr: hover: not(th){
+  background-color:grey;
+}
+tr:nth-child(even){background-color:lightblue;}
